@@ -1,0 +1,35 @@
+.whole{
+    background-color:#1D232F;
+    height: 100%;
+    width: 100%;
+}
+
+.textpart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: justify;
+}
+
+.textpart h1{
+    color:dodgerblue;
+    text-align: start;
+    font-size:larger;
+    font-weight: 600;
+}
+
+.textpart input{
+    font-size: larger;
+}
+
+.textpart div{
+    flex-direction: row;
+    width: 24px;
+    cursor: pointer;
+    color:dodgerblue;
+    word-spacing: 5px;
+}
+
